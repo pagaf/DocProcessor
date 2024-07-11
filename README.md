@@ -51,7 +51,7 @@ print(result)
 ```
 
 ## CLI и пример взаимодействия 
-Также в рамках задания был реализован CLI в cli.py
+Также в рамках задания был реализован CLI в cli.py.
 Пример взаимодействия(первый тест):
 ```
 python main.py --db database.db "http://example.com/doc1" 10 20 "Первый вариант"
@@ -60,3 +60,6 @@ python main.py --db database.db "http://example.com/doc1" 10 30 "Второй в
 
 ![image](https://github.com/pagaf/DocProcessor/assets/112046185/c45e5acf-8b78-4a9d-a141-9fa7b0faef60)
 
+## Тестирование
+Тесты на обработку одного документа, нескольких версий одного документа, документов с разными URL,обработку двух версий документа с одинаковой временной меткой fetch_time.
+![image](https://github.com/pagaf/DocProcessor/assets/112046185/ea03adfe-d447-45b7-832b-e94a833642c3)
