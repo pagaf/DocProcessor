@@ -25,7 +25,10 @@ message TDocument {
     string Text = 4;          // текст документа
     uint64 FirstFetchTime = 5; // изначально отсутствует, необходимо заполнить
 }
+```
+
 ## Пример
+
 ```python
 from main import Processor, TDocument
 
